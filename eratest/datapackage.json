@@ -1,16 +1,22 @@
 {
-	"fields": [
+	"resources": [
 		{
-			"name": "species",
-			"title": "Species",
-			"type": "string",
-			"format": "default"
-		},
-		{
-			"name": "year",
-			"title": "Year",
-			"type": "integer",
-			"format": "default"
+			"schema": {
+				"fields": [
+					{
+						"name": "species",
+						"title": "Species",
+						"type": "string",
+						"format": "default"
+					},
+					{
+						"name": "year",
+						"title": "Year",
+						"type": "integer",
+						"format": "default"
+					}
+				]
+			}
 		}
 	]
 }
