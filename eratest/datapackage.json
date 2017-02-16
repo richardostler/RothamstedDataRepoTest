@@ -7,7 +7,6 @@
 			"url": "https://raw.githubusercontent.com/richardostler/RothamstedDataRepoTest/master/eratest/pgspecies.csv",
 			"encoding": "UTF-8",
 			"dialect": {
-				"delimiter": ",",
 				"header": true
 			},
 			"schema": {
@@ -15,17 +14,17 @@
 					{
 						"name": "Species",
 						"title": "Species",
+						"type": "String",
 						"constraints": {
-							"required": true,
-							"type": "http://www.w3.org/2001/XMLSchema#string"
+							"required": true							
 						}
 					},
 					{
 						"name": "Year",
 						"title": "Year",
+						"type": "Integer",
 						"constraints": {
-							"required": true,
-							"type": "http://www.w3.org/2001/XMLSchema#positiveInteger"
+							"required": true
 						}
 					}
 				]
