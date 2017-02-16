@@ -24,10 +24,7 @@
 						"format": "default"
 					}
 				]
-			},
-			"url": "https://raw.githubusercontent.com/richardostler/RothamstedDataRepoTest/master/eratest/pgspecies.csv",
-			"format": "CSV",
-			"mediatype": "text/csv"
+			}
 		}
 	]
 }
