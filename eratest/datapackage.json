@@ -1,28 +1,34 @@
 {
-	"name": "park-grass-species-list",
-	"title": "Park Grass Species List",
+	"name": "pgtest",
+	"title": "Pgtest",
+	"description": "PG test",
+	"version": "1.0",
+	"license": "CC BY 4.0",
+	"author": "Rothamsted Research",
 	"resources": [
 		{
 			"name": "data",
-			"path": "pgspecies.csv",
+			"title": "Data",
 			"schema": {
 				"fields": [
 					{
 						"name": "species",
 						"title": "Species",
-						"description": "",
 						"type": "string",
 						"format": "default"
 					},
 					{
 						"name": "year",
 						"title": "Year",
-						"description": "",
 						"type": "integer",
 						"format": "default"
 					}
 				]
-			}
+			},
+			"url": "https:\\\\Fraw.githubusercontent.com\\richardostler\\RothamstedDataRepoTest\\master\\eratest\\pgspecies.csv",
+			"format": "CSV",
+			"mediatype": "text/csv",
+			"bytes": 0
 		}
 	]
 }
