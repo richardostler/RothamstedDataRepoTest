@@ -1,14 +1,7 @@
 {
 	"name": "parkgrasstest",
-	"title": "Park Grass Species List Test",
-	"description": "Test using data packages for sample ERA data. This data is for test purposes only. Trying a different URL",
-	"version": "1.0",
-	"license": "CC BY 4.0",
-	"author": "Rothamsted Research",
 	"resources": [
 		{
-			"name": "data",
-			"title": "Data Table",
 			"schema": {
 				"fields": [
 					{
