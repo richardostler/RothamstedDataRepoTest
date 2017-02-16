@@ -1,0 +1,29 @@
+{
+	"name": "parkgrass-test",
+	"title": "Parkgrass Test",
+	"description": "Parkgrass test using species data",
+	"resources": [
+		{
+			"name": "pgspecies",
+			"title": "Pgspecies",
+			"schema": {
+				"fields": [
+					{
+						"name": "Species",
+						"type": "string",
+						"format": "default"
+					},
+					{
+						"name": "Year",
+						"type": "integer",
+						"format": "default"
+					}
+				]
+			},
+			"path": "pgspecies.csv",
+			"format": "CSV",
+			"mediatype": "text/csv",
+			"bytes": 0
+		}
+	]
+}
