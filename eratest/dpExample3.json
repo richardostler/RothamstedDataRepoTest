@@ -1,0 +1,20 @@
+{
+	"fields": [
+		{
+			"name": "Species",
+			"title": "Species",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Year",
+			"title": "Year",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#gYear"
+			}
+		}
+	]
+}
