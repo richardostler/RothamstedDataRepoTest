@@ -4,7 +4,7 @@
 	"resources": [
 		{
 			"name": "data",
-			"path": "h:/pg species.csv",
+			"path": "pg species.csv",
 			"schema": {
 				"fields": [
 					{
