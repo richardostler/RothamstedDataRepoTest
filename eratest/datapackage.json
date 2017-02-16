@@ -1,19 +1,33 @@
 {
-	"fields": [
+	"name": "parkgrasstest",
+	"title": "Park Grass Species List Test",
+	"description": "Test using data packages for sample ERA data. This data is for test purposes only. Trying a different URL",
+	"version": "1.0",
+	"license": "CC BY 4.0",
+	"author": "Rothamsted Research",
+	"resources": [
 		{
-			"name": "Species",
-			"title": "Species",
-			"constraints": {
-				"required": true,
-				"type": "http://www.w3.org/2001/XMLSchema#string"
-			}
-		},
-		{
-			"name": "Year",
-			"title": "Year",
-			"constraints": {
-				"required": true,
-                "type": "http://www.w3.org/2001/XMLSchema#positiveInteger"	
+			"name": "data",
+			"title": "Data Table",
+			"schema": {
+				"fields": [
+					{
+						"name": "Species",
+						"title": "Species",
+						"constraints": {
+							"required": true,
+							"type": "http://www.w3.org/2001/XMLSchema#string"
+						}
+					},
+					{
+						"name": "Year",
+						"title": "Year",
+						"constraints": {
+							"required": true,
+							"type": "http://www.w3.org/2001/XMLSchema#positiveInteger"
+						}
+					}
+				]
 			}
 		}
 	]
