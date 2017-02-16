@@ -19,7 +19,11 @@
 						"format": "default"
 					}
 				]
-			}
+			},
+			"path": "pgspecies.csv",
+			"format": "CSV",
+			"mediatype": "text/csv",
+			"bytes": 0
 		}
 	]
 }
