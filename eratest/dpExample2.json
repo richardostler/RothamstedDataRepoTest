@@ -5,8 +5,12 @@
 		{
 			"name": "data",
 			"url": "https://raw.githubusercontent.com/richardostler/RothamstedDataRepoTest/master/eratest/pgspecies.csv",
+			"encoding": "UTF-8",
+			"dialect": {
+				"delimiter": ",",
+				"header": true
+			},
 			"schema": {
-				"header":true,
 				"fields": [
 					{
 						"name": "Species",
