@@ -1,7 +1,7 @@
 {
 	"name": "park-grass-test",
 	"title": "Park Grass Species List Test",
-	"description": "PG test",
+	"description": "Test using data packages for sample ERA data. This data is for test purposes only",
 	"version": "1.0",
 	"license": "CC BY 4.0",
 	"author": "Rothamsted Research",
@@ -27,8 +27,7 @@
 			},
 			"url": "https://raw.githubusercontent.com/richardostler/RothamstedDataRepoTest/master/eratest/pgspecies.csv",
 			"format": "CSV",
-			"mediatype": "text/csv",
-			"bytes": 0
+			"mediatype": "text/csv"
 		}
 	]
 }
