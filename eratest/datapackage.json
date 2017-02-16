@@ -1,22 +1,22 @@
 {
-	"name": "Park Grass Species List",
+	"name": "park-grass-species-list",
 	"title": "Park Grass Species List",
 	"resources": [
 		{
 			"name": "data",
-			"path": "pg species.csv",
+			"path": "pgspecies.csv",
 			"schema": {
 				"fields": [
 					{
-						"name": "Species",
-						"title": "",
+						"name": "species",
+						"title": "Species",
 						"description": "",
 						"type": "string",
 						"format": "default"
 					},
 					{
-						"name": "Year",
-						"title": "",
+						"name": "year",
+						"title": "Year",
 						"description": "",
 						"type": "integer",
 						"format": "default"
