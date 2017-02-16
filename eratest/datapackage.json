@@ -1,19 +1,24 @@
 {
-	"fields": [
+	"name": "parkgrass-test",
+	"title": "Parkgrass Test",
+	"description": "Parkgrass test using species data",
+	"resources": [
 		{
-			"name": "Species",
-			"title": "Species",
-			"constraints": {
-				"required": true,
-				"type": "http://www.w3.org/2001/XMLSchema#string"
-			}
-		},
-		{
-			"name": "Year",
-			"title": "Year",
-			"constraints": {
-				"required": true,
-				"type": "http://www.w3.org/2001/XMLSchema#positiveInteger"
+			"name": "pgspecies",
+			"title": "Pgspecies",
+			"schema": {
+				"fields": [
+					{
+						"name": "Species",
+						"type": "string",
+						"format": "default"
+					},
+					{
+						"name": "Year",
+						"type": "integer",
+						"format": "default"
+					}
+				]
 			}
 		}
 	]
