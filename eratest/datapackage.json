@@ -8,7 +8,7 @@
 	"resources": [
 		{
 			"name": "data",
-			"title": "Data",
+			"title": "Data Table",
 			"schema": {
 				"fields": [
 					{
@@ -25,7 +25,7 @@
 					}
 				]
 			},
-			"url": "https:\\\\raw.githubusercontent.com\\richardostler\\RothamstedDataRepoTest\\master\\eratest\\pgspecies.csv",
+			"url": "https://raw.githubusercontent.com/richardostler/RothamstedDataRepoTest/master/eratest/pgspecies.csv",
 			"format": "CSV",
 			"mediatype": "text/csv",
 			"bytes": 0
