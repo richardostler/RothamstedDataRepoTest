@@ -2,13 +2,13 @@
 	"fields": [
 		{
 			"name": "species",
-			"title": "Species",
+			"title": "species",
 			"type": "string",
 			"format": "default"
 		},
 		{
 			"name": "year",
-			"title": "Year",
+			"title": "year",
 			"type": "integer",
 			"format": "default"
 		}
